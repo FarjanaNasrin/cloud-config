@@ -14,13 +14,3 @@ spring:
  jpa:
   show:
    sql: true
----
-spring:
-  profiles: default
-  application:
-    name: EmployeeDetails2
-  cloud:
-    config:
-      uri: http://localhost:8081
-      label: develop
-      enabled: true
