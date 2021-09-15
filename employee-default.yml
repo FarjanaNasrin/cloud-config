@@ -12,13 +12,3 @@ spring:
  jpa:
   show:
    sql: true
----
-spring:
-  profiles: default
-  application:
-    name: employee
-  cloud:
-    config:
-      uri: http://localhost:8081
-      label: develop
-      enabled: true  
